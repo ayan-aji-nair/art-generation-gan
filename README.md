@@ -1,5 +1,5 @@
 # Art Generation GANs
-
+Experimenting with DCGANs for generating various kinds of art. 
 
 ## Model Architecture
 The architecture used in this DCGAN implementation is drawn directly from the [DCGAN research paper](https://arxiv.org/abs/1511.06434) and the [PyTorch DCGAN tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html). 
@@ -13,9 +13,10 @@ All hyperparameters, like latent feature vector size, learning rates, batch size
 
 
 ## Datasets
-The Ancient Chinese Art dataset can be found here: https://github.com/ychen93/Chinese-Painting-Dataset/blob/master/data.zip
-The Van Gogh dataset can be found here: https://www.kaggle.com/ipythonx/van-gogh-paintings 
+[Find the Ancient Chinese Art dataset here](https://github.com/ychen93/Chinese-Painting-Dataset/blob/master/data.zip)
 
-The Chinese Art data contains two sets of the same images; one for MacOSX and another folder for windows. The MacOSX folder is not necessary - deleting this folder and re-zipping the file allows for the model to run quickly.
+[Find the Van Gogh Paintings dataset here](https://www.kaggle.com/ipythonx/van-gogh-paintings)
+
+Note about the Ancient Chinese Art dataset - the zip file for this dataset contains two copies of the same data, with one copy formatted for MacOSX. 
 
 
