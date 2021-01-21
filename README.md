@@ -3,8 +3,7 @@
 
 ## Model Architecture
 The architecture used in this DCGAN implementation is drawn directly from the research paper and the PyTorch DCGAN tutorial. 
-
-** include image of generator architecture ** 
+![alt text](https://pytorch.org/tutorials/_images/dcgan_generator.png)
 
 
 
