@@ -9,7 +9,7 @@ The input to the generator is a 100-dimensional random latent feature vector, wh
 
 The discriminator takes a colored 64x64 image as input and outputs a probability that corresponds to the authenticity of the inputted image. Similar to the generator, one additional convolutional layer is added to the discriminator to allow it to classify 128x128 images. 
 
-All hyperparameters, like latent feature vector size, learning rates, batch sizes, and feature map sizes were drawn directly from the DCGAN paper. 
+All hyperparameters, like latent feature vector size, learning rates, batch sizes, and feature map sizes were drawn directly from the DCGAN paper. Batch size was changed from original value of 128 to 64. 
 
 
 ## Datasets
