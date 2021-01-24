@@ -1,5 +1,5 @@
 # Art Generation GANs
-Experimenting with DCGANs for generating various kinds of art. 
+Experimenting with DCGANs for generating art. 
 
 ## Model Architecture
 The architecture used in this DCGAN implementation is drawn directly from the [DCGAN research paper](https://arxiv.org/abs/1511.06434) and the [PyTorch DCGAN tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html). 
