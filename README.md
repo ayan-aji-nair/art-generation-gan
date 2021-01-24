@@ -33,3 +33,14 @@ Generated images are not quite as clear because of a lack of training time. With
 ## Trying the Model
 Follow these steps to create some of your own images! 
 
+To use the parameters provided in the repo:
+1. Download the dataset. Unzip it and delete the MACOSX folder, as this contains duplicate images. 
+2. Download the paramters for either the 64px DCGAN or the 128px DCGAN.
+3. Open either the DCGAN_64 or DCGAN_128 Jupyter notebook.
+4. Load the parameters file into the Jupyter notebook.
+5. Scroll down in the notebook to the code cell that loads in parameters and run this cell to load in the model parameters. 
+6. Run the last cell to generate new images. 
+
+The notebooks also provide instructions for re-training the model from scratch. 
+
+
