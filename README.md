@@ -38,7 +38,7 @@ To use the parameters provided in the repo:
 2. Download the paramters for either the 64px DCGAN or the 128px DCGAN.
 3. Open either the DCGAN_64 or DCGAN_128 Jupyter notebook.
 4. Load the parameters file into the Jupyter notebook.
-5. Scroll down in the notebook to the code cell that loads in parameters and run this cell to load in the model parameters. Change the path according to the directory in which the model parameters were stored. There are different parameter options to load in, with the number at the end of each file corresponding to how many epochs that set of parameters trained for.
+5. Scroll down in the notebook to the code cell that loads in parameters and run this cell to load in the model parameters. Change the path according to the directory in which the model parameters were stored. There are different parameter options to load in, with the number at the end of each file corresponding to how many epochs that set of parameters was trained.
 6. Run the last cell to generate new images. 
 
 The notebooks also provide instructions for re-training the model from scratch. 
